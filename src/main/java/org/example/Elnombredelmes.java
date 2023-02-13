@@ -1,5 +1,6 @@
 package org.example;
 
+import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -8,11 +9,6 @@ public class Elnombredelmes {
     static Scanner sc = new Scanner(System.in);
 
     public static void Ejercicio3(int choice) {
-        int opcion = 0;
-        boolean repetir = false;
-        do {
-            try {
-                repetir = false;
 
                 switch (choice) {
                     case 1:
@@ -63,22 +59,23 @@ public class Elnombredelmes {
                         System.out.println("Diciembre");
                         menuejercicio3();
                         break;
+                    case 13:
+                        System.out.println("Saliendo...");
+                        break;
                     default:
                         System.out.println("Mes no válido");
                         break;
                 }
-            } catch (InputMismatchException e) {
-                System.out.println("Introduzca una de las opciones señaladas.");
-                sc.nextLine();
-            }
-        } while (opcion != 12);
+
     }
 
     public static void menuejercicio3() {
-        boolean repeat = false;
+        boolean repeat=false;
         do {
-            try { //MENU PRINCIPAL
-                repeat = false;
+            try {
+
+                repeat=false;
+
                 System.out.println("1. Enero\n"
                         + "2. Febrero\n"
                         + "3. Marzo\n"
@@ -93,18 +90,20 @@ public class Elnombredelmes {
                         + "12. Diciembre\n"
                         + "13. Salir\n"
                         + "Introduzca el número del mes: ");
+
                 int choice = sc.nextInt();
-                if (choice < 1 || choice > 7)
-                    throw new OutofRangeException("Error. Tienes que introducir un número entre 1 y 7"); //Excepcion introducida para comprobar que los valores esten entre 0 y 5
+                if (choice <0||choice>13)
+                    throw new OutofRangeException("Error. Tienes que introducir un número entre 0 y 4"); //Excepcion introducida para comprobar que los valores esten entre 0 y 5
                 Ejercicio3(choice);
             } catch (OutofRangeException exc2) {
                 System.out.println(exc2.getMessage());
-                repeat = true;
+                repeat=true;
             } catch (InputMismatchException exc3) {
                 sc.nextLine();
                 System.out.println("Error. Tienes que introducir un número."); //Excepcion introducida para comprobar que el valor introducido sea un numero, si no se volvera a pedir un valor
-                repeat = true;
+                repeat=true;
             }
-        } while (repeat);
+        }while(repeat);
     }
+
 }

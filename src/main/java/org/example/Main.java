@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        Menu menu = new Menu();
-        menu.ejercicios();
+        Menu menu1 = new Menu();
+        menu1.switchOptions();1
     }
 }

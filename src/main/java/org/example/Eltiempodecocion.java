@@ -11,8 +11,6 @@ public class Eltiempodecocion {
         int modo;
         int resultado = 0;
         System.out.println("Tipo de carne: ");
-        sc.nextLine();
-
         System.out.println("1. Vacuno \n2. Cordero ");
         tipo = sc.nextInt();
 
