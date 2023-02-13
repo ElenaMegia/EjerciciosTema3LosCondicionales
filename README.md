@@ -10,16 +10,27 @@ Escriba un algoritmo que muestre "riesgo de hielo", si la temperatura introducid
 ### 2. El tiempo versión 2:
 
 Modificar el algoritmo anterior para mostrar un mensaje según la temperatura:
-`Temperatura
+~~~~~~~~~
+Temperatura
+
 Mensaje
+
 t < 2
+
 Riesgo de hielo
+
 2 ≤ t < 15
+
 Hace frío
+
 15 ≤ t < 30
+
 Buena temperatura
+
 t ≥ 30
-Demasiado calor`
+
+Demasiado calor
+~~~~~~~~~
 
 ### 3. El nombre del mes:
    Escriba el nombre del mes completo en función de su número (introducido por el usuario).
