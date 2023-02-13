@@ -151,5 +151,5 @@ Salario neto: 1.437,42 €
 
 Prima familiar: 110 €
 
-Salario neto a pagar: 1.547,42 € `
+Salario neto a pagar: 1.547,42 € 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
