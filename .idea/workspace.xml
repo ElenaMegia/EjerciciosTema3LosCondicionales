@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7554f7da-8e38-49f0-aa04-05cca7c62154" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Elnombredelmes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Eltiempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Eltiempo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/eltiempodecocion/Carne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/eltiempodecocion/Eltiempodecocion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/eltiempodecocion/modococion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/eltiempodecocion/tipocarne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OutofRangeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Elnombredelmes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Elnombredelmes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Eltiempodecocion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Eltiempodecocion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,6 +50,11 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676296491775</updated>
-      <workItem from="1676296494293" duration="2286000" />
+      <workItem from="1676296494293" duration="3261000" />
     </task>
     <task id="LOCAL-00001" summary="Readme actualizado">
       <created>1676297015320</created>
@@ -86,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676297094487</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ejercicio 1,2,3 terminados">
+      <created>1676298988773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676298988773</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ejercicio 1,2,3 terminados anterior commit malo">
+      <created>1676299056266</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676299056266</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +108,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Readme actualizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme actualizado" />
+    <MESSAGE value="Ejercicio 1,2,3 terminados" />
+    <MESSAGE value="Ejercicio 1,2,3 terminados anterior commit malo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 1,2,3 terminados anterior commit malo" />
   </component>
 </project>

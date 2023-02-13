@@ -20,19 +20,23 @@ public class Menu {
                     case 1:
                         Eltiempo ejercicio1 = new Eltiempo();
                         ejercicio1.Ejercicio1();
+                        ejercicios();
                         break;
                     case 2:
                         Eltiempo2 ejercicio2 = new Eltiempo2();
                         ejercicio2.Ejercicio2();
+                        ejercicios();
                         break;
                     case 3:
 
                         Elnombredelmes ejercicio3 = new Elnombredelmes();
-                        ejercicio3.Ejercicio3();
+                        ejercicio3.menuejercicio3();
+                        ejercicios();
                         break;
                     case 4:
-                        Ejercicio4 ejercicio4 = new Ejercicio4();
-                        ejercicio4.Ejercicio4metodo();
+                        Eltiempodecocion ejercicio4 = new Eltiempodecocion();
+                        ejercicio4.Ejercicio4();
+                        ejercicios();
                         break;
                     case 5:
                         System.out.println("Gracias.");
