@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class Menu{
+    +Menu (int options)
+   +switchOption ()
+}
+
+class Main{
+    +main (String[] args)
+}
+
+class Eltiempo{
+    +Ejercicio1 ()
+}
+
+class Elnombredelmes{
+    +Ejercicio3 (int choice)
+    +menuejercicio3()
+}
+
+class Eltiempodecocion{
+    +Ejercicio4 ()
+}
+
+class Nomina{
+    +Ejercicio5 ()
+}
+
+exception OutOfRangeException{
+    +OutOfRangeException (String message)
+}
+
+Elnombredelmes --> Menu
+Eltiempo --> Menu
+Eltiempodecocion --> Menu
+Nomina --> Menu
+Menu --> Main
+OutOfRangeException .. Menu
+OutOfRangeException .. Elnombredelmes
+@enduml
