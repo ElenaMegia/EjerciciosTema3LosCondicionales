@@ -8,6 +8,7 @@ import java.util.Scanner;
 import static org.example.Elnombredelmes.menuejercicio3;
 import static org.example.Eltiempo.Ejercicio1;
 import static org.example.Eltiempodecocion.Ejercicio4;
+import static org.example.Nomina.Ejercicio5;
 
 public class Menu {
     static Scanner keyboard = new Scanner(System.in);
@@ -62,6 +63,7 @@ public class Menu {
                 switchOptions ();
                 break;
             case 4:
+                Ejercicio5();
                 switchOptions ();
                 break;
 

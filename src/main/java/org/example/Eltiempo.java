@@ -7,7 +7,7 @@ public class Eltiempo {
     static Scanner sc = new Scanner(System.in);
 
     public static void Ejercicio1() {
-
+        System.out.println("Ejercicio Tiempo VERSION 2.0");
         System.out.println("Introduce la temperatura: ");
         int temperatura = sc.nextInt();
         if (temperatura < 2) {
