@@ -1,6 +1,8 @@
 # EjerciciosTema3LosCondicionales
 **Entrega 3 Tecnicas de Programacion**
 
+https://github.com/ElenaMegia/EjerciciosTema3LosCondicionales.git
+
 ## Ejercicios:
 
 ### 1. El tiempo:
