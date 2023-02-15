@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7554f7da-8e38-49f0-aa04-05cca7c62154" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/uml/Menu.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Elena/Desktop/EjerciciosTema3LosCondicionales",
+    "last_opened_file_path": "C:/Users/Elena/Desktop/EjercicioTema4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,7 +65,8 @@
       <workItem from="1676296494293" duration="4247000" />
       <workItem from="1676309569796" duration="1385000" />
       <workItem from="1676366889914" duration="1845000" />
-      <workItem from="1676368905376" duration="880000" />
+      <workItem from="1676368905376" duration="1747000" />
+      <workItem from="1676399389088" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Readme actualizado">
       <created>1676297015320</created>
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676368193441</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="UML GLOBAL AGREGADO">
+      <created>1676370049145</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676370049145</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
     <MESSAGE value="arreglado más cosas" />
     <MESSAGE value="Todo arreglado solo falta el ejercicio 5" />
     <MESSAGE value="TERMINADO TODO, ENTREGAR" />
-    <option name="LAST_COMMIT_MESSAGE" value="TERMINADO TODO, ENTREGAR" />
+    <MESSAGE value="UML GLOBAL AGREGADO" />
+    <option name="LAST_COMMIT_MESSAGE" value="UML GLOBAL AGREGADO" />
   </component>
 </project>
